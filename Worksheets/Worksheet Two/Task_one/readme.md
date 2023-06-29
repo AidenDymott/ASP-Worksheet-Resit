@@ -24,4 +24,10 @@ memory.
 The following image shows the code used within the main function, the code is used to show 3 examples, these being allocating 3 different
 sizes of objects, the allocation returning a nullptr and the allocator reseting when deallocations are equal to the number of allocations.
 
-![Main Function](Main_function_code.png)
+![Main Function](Main_funciton_code.png)
+
+The first block shows the three different types of data being added to the stack, it does this by creating an instance of the BumpAllocator
+then allocating memory for the 3 data types, the if statement then checks that the 3 values are not null, this checks they were added correctly to
+the heap and then returns the stored values.
+
+![Example One](Example_one.png)
