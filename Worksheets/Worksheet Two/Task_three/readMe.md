@@ -1,8 +1,11 @@
 # Task Three
 
-## Part One - Benchmarking function
+## Part One - Always Bump Down / Benchmarking function
 
-To test the bump allocator used for the previous taks I decided to create a simple function that add/removes 1000 items from the bump's memory, then within the main function using elements from the chrono libray took
+reading the blog [Always Bump Downwards](https://fitzgeraldnick.com/2019/11/01/always-bump-downwards.html) I can tell that the bump allocator I have implemented is currently bumping upwards,
+this is because it counts the number of allocations made incremently to when new mem objs are added to it.
+
+To test the non optimised bump allocator used for the previous taks I decided to create a simple function that add/removes 1000 items from the bump's memory, then within the main function using elements from the chrono libray took
 the start and end time of the function running and used them to see how long it took the function to complete running.
 
 ![Test Func](test_bench.png)
