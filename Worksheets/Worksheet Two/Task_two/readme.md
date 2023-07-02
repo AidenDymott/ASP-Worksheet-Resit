@@ -1,5 +1,8 @@
 # Worksheet Two
 
+To compile and run please use clang++ main.cpp simpletest.cpp -o prog
+and then run ./prog to run the program.
+
 ## Task Two
 To create the unit tests I first downloaded the contents of the simpletest directory found at https://github.com/kudaba/simpletest/tree/b528a7a43179e341a9b1f71b7cdcb0c5f9655080 and included it 
 within the task folder, after including it within the main.cpp file I had to define two of the testing functions to allow me to use them.
