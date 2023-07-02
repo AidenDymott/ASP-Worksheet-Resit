@@ -1,5 +1,9 @@
 # Worksheet Two
 
+
+To compile and run please use clang++ my_string.cpp filetest_string.cpp -o prog
+and then run ./prog to run the program.
+
 ## Task One
 
 For this task we had to make a bump allocator that has and allocate and deallocate functions and provide 3 different examples
