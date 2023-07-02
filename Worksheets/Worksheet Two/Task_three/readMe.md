@@ -1,5 +1,8 @@
 # Task Three
 
+To run this code please use clang++ main.cpp -o prog
+Then ./prog to run the compiled program
+
 ## Part One - Always Bump Down / Benchmarking function
 
 reading the blog [Always Bump Downwards](https://fitzgeraldnick.com/2019/11/01/always-bump-downwards.html) I can tell that the bump allocator I have implemented is currently bumping upwards,
