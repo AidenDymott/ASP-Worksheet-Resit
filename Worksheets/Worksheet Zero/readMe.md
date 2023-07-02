@@ -1,5 +1,8 @@
 # Worksheet Zero
 
+To compile and run please use clang++ my_string.cpp filetest_string.cpp -o prog
+and then run ./prog to run the program.
+
 ## Task One
 
 For this task we had to implement a simple class in a .hpp file, we had to implement a constructor class, a copy constructor, a deconstructor, an operator assignment
